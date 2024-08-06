@@ -1,0 +1,35 @@
+body{
+    color:white;
+    background: black;
+    margin: 0px;  
+    font-family: "Bebas Neue", sans-serif;
+}
+header{
+    border-bottom: solid 3px rgb(180, 0, 0);
+    padding: 18px;
+    font-size: 32px;
+    color: rgb(255, 10, 10);
+}
+/* código omitido */
+
+section {
+    background: rgb(0, 10, 20);
+    padding-bottom: 90px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.textcall{
+    margin-right: 5%;
+}
+h1{
+    font-size: 40px;
+}
+img {
+    height: 200px;
+  }
+  .categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 12px;
+  }
